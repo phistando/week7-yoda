@@ -10,8 +10,18 @@ html {
 }
 
 body {
-  background: $bg-main-color;
+  background-image: url("starwars2_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   line-height: 1.625;
+}
+
+#result {
+  color: #14FF8A;
+}
+
+#input {
+  text-align: center;
 }
 
 h3, p, div {
@@ -28,6 +38,13 @@ h3 {
 button {
   display: block;
   margin: 15px auto;
+  color: #3B434A;
+  background-color: #CADAE8;
+  font-weight: bold;
+}
+
+button:hover {
+    background-color: #8CC1ED;
 }
 
 #bio {
