@@ -13,7 +13,7 @@ $btn.on('click', function() {
     data: {
       sentence: $('#input').val()
     },
-    datatype: 'json',
+    // datatype: 'json',
     success: function(data) {alert(data);
     $('#result').html(data);
     },
